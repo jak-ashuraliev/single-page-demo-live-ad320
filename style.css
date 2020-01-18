@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    background-image: linear-gradient(#6b02d2, #a6ffe6);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#6b02d2), to(#a6ffe6));
+    -webkit-transform: skewY(-18deg);
+            transform: skewY(-18deg);
+    -webkit-transform-origin: top left;
+            transform-origin: top left;
+    z-index: -1;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 3rem;
+    color: #fff;
+    font-size: 2rem;
+}
+
+small {
+    color: #7d7d7d;
+}
+
+p {
+    color: #7d7d7d;
+}
+
+.container {
+    max-width: 80vw;
+    margin: 3rem auto;
+    background: white;
+    border-radius: 5px;
+    padding: 3rem;
+
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+
+    -webkit-box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.box-wrapper {
+    display: flex;
+}
+
+.box-left img {
+    width: 35vw;
+}
+
+input[type=button] {
+    padding: .5rem 2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: .275rem;
+    background-color: #7a23d0;
+    color: #fff;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+input[type=button]:hover {
+    background-color: #9e62da;
+}
+
+input[type=button]:focus {
+    outline: none;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 0.825rem;
+}
